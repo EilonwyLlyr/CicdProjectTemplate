@@ -91,7 +91,7 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-source-plugin</artifactId>
 	<configuration>
-		<javadocExecutable>${JAVA_HOME}/bin/javadoc</javadocExecutable>
+		<javadocExecutable>${java.home}/bin/javadoc</javadocExecutable>
 	</configuration>
         <executions>
             <execution>
